@@ -1,5 +1,5 @@
 // Extension REST client
 
-GET http://localhost:3001/api/search?q=new+test+update
+GET https://notes-api-ggzj.onrender.com/api/search?q=new+test+update
 Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MDdjNDcwODNmOWRlNzFkMDM1YjliYSIsInVzZXJuYW1lIjoiam9obiIsImlhdCI6MTY3ODIzOTc3MiwiZXhwIjoxNjc4ODQ0NTcyfQ.DvKYclxhW1rsf39jbRJ2yQCeIkF8mWILUvLZwU_VFZo

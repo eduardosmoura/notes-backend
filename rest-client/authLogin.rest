@@ -1,6 +1,6 @@
 // Extension REST client
 
-POST http://localhost:3001/api/auth/login
+POST https://notes-api-ggzj.onrender.com/api/auth/login
 Content-Type: application/json
 
 {

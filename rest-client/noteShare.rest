@@ -1,6 +1,6 @@
 // Extension REST client
 
-POST http://localhost:3001/api/notes/6407c4fc83f9de71d035b9be/share
+POST https://notes-api-ggzj.onrender.com/api/notes/6407c4fc83f9de71d035b9be/share
 Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MDdjNGU0ODNmOWRlNzFkMDM1YjliZCIsInVzZXJuYW1lIjoiamFuZSIsImlhdCI6MTY3ODIzMDc2NSwiZXhwIjoxNjc4ODM1NTY1fQ.Pn3ZD6eQRLhilPdCep7N67H0X9s89Vk-y_CAHZZ6348
 

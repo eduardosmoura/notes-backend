@@ -56,6 +56,7 @@ Notes Backend API (Node + Express + MongoDB + JWT)
 * jsonwebtoken (JSON Web Tokens)
 * mongoose (MongoDB Object Modeling for NodeJS)
 * mongoose-unique-validator (Validates unique fields within a Mongoose schema)
+* swagger (OpenAPI Documentation)
 
 ### ENV File
 * Copy file from **.env.example** to **.env** in same location and add values

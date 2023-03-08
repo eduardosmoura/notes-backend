@@ -8,9 +8,15 @@
     "dev": "NODE_ENV=development nodemon src/index.js",
     "lint": "npx standard",
     "test": "NODE_ENV=test jest --verbose --silent",
-    "test:watch": "npm run test -- --watch"
+    "test:watch": "npm run test -- --watch",
+    "swagger-autogen": "node src/swagger.js"
   },
-  "keywords": ["node", "express", "mongodb", "jwt"],
+  "keywords": [
+    "node",
+    "express",
+    "mongodb",
+    "jwt"
+  ],
   "author": "eduardosmoura@gmail.com",
   "license": "ISC",
   "devDependencies": {
@@ -21,6 +27,7 @@
     "supertest": "^6.1.6"
   },
   "dependencies": {
+    "and": "^0.0.3",
     "bcrypt": "^5.0.1",
     "cors": "^2.8.5",
     "dotenv": "^16.0.0",
@@ -28,7 +35,9 @@
     "express-rate-limit": "^6.7.0",
     "jsonwebtoken": "^9.0.0",
     "mongoose": "5.11.19",
-    "mongoose-unique-validator": "^2.0.3"
+    "mongoose-unique-validator": "^2.0.3",
+    "swagger-autogen": "^2.23.1",
+    "swagger-ui-express": "^4.6.2"
   },
   "eslintConfig": {
     "extends": "./node_modules/standard/eslintrc.json",
