@@ -1,0 +1,42 @@
+{
+  "name": "notes-backend",
+  "version": "1.0.0",
+  "description": "Notes Backend API (Node + Express + MongoDB + JWT)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node src/index.js",
+    "dev": "NODE_ENV=development nodemon src/index.js",
+    "lint": "npx standard",
+    "test": "NODE_ENV=test jest --verbose --silent",
+    "test:watch": "npm run test -- --watch"
+  },
+  "keywords": ["node", "express", "mongodb", "jwt"],
+  "author": "eduardosmoura@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.5.1",
+    "standard": "17.0.0",
+    "supertest": "^6.1.6"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^6.7.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "5.11.19",
+    "mongoose-unique-validator": "^2.0.3"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json",
+    "env": {
+      "jest": true
+    }
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}

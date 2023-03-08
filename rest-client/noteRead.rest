@@ -1,0 +1,5 @@
+// Extension REST client
+
+GET http://localhost:3001/api/notes/6407c4fc83f9de71d035b9be
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MDdjNDcwODNmOWRlNzFkMDM1YjliYSIsInVzZXJuYW1lIjoiam9obiIsImlhdCI6MTY3ODIzOTY4NCwiZXhwIjoxNjc4ODQ0NDg0fQ.nsIpqHI4gfyFjPUx9Y6OqemHw5Bc9wfh0MrBmg5nwMY

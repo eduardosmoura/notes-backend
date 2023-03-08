@@ -1,0 +1,10 @@
+// Extension REST client
+
+POST http://localhost:3001/api/auth/signup
+Content-Type: application/json
+
+{
+  "username": "jane",
+  "name": "Jane Doe",
+  "password": "passwd"
+}
