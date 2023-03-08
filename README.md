@@ -41,9 +41,11 @@ Notes Backend API (Node + Express + MongoDB + JWT)
 * [`rest-client/noteUpdate.rest`](rest-client/noteUpdate.rest)
 
 ### Dev Dependencies
+* faker (Generates fake data)
 * jest (Testing)
 * nodemon (Automatic restart)
 * prettier (Code formatter)
+* sinon (Standalone test spies, stubs and mocks)
 * standard (Eslint)
 * supertest (Endpoint testing with Jest)
 
@@ -75,4 +77,4 @@ Notes Backend API (Node + Express + MongoDB + JWT)
 
 ### Live Deployment
 * https://notes-api-ggzj.onrender.com/api/docs/
-* The deployed API could be on `idle` state so please wait a few seconds after hitting it at the first time 
+* The deployed API could be on `idle` state so please wait a few seconds after hitting it at the first time
