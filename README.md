@@ -75,3 +75,4 @@ Notes Backend API (Node + Express + MongoDB + JWT)
 
 ### Live Deployment
 * https://notes-api-ggzj.onrender.com/api/docs/
+* The deployed API could be on `idle` state so please wait a few seconds after hitting it at the first time 
