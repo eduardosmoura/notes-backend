@@ -72,3 +72,6 @@ Notes Backend API (Node + Express + MongoDB + JWT)
 * Setup `.env` file
 * Setup a local `MongoDB` database
 * Run the API using `npm run dev`
+
+### Live Deployment
+* https://notes-api-ggzj.onrender.com/api/docs/
